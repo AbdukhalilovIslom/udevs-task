@@ -1,0 +1,41 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+
+  &:active {
+    color: black;
+  }
+}
+
+.container {
+  max-width: 1920px;
+  padding-inline: 200px;
+  margin: 0 auto;
+
+  @media all and (max-width: 1919px) {
+    padding-inline: 112px;
+  }
+
+  @media all and (max-width: 1439px) {
+    padding-inline: 40px;
+  }
+
+  @media all and (max-width: 767px) {
+    padding-inline: 20px;
+  }
+
+
+}

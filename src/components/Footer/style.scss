@@ -1,0 +1,41 @@
+.footer {
+  padding-block: 64px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+
+  @media all and (max-width: 767px) {
+    padding-block: 40px;
+  }
+  .footer__left {
+    .footer__left__logo {
+      margin-bottom: 24px;
+    }
+    .footer__left__navs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-bottom: 24px;
+      .footer__left__nav {
+      }
+    }
+    .footer__left__text {
+      margin-top: 24px;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      color: #d1d5db;
+    }
+  }
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    p {
+      margin: 0;
+    }
+  }
+}
