@@ -14,7 +14,7 @@ function App() {
       <Route
         path="/"
         element={
-          <div className="app">
+          <div>
             <Hero />
             <Companies />
             <Features />
